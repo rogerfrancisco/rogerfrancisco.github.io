@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style1.css">
+  <script src="assets/js/formulario.js"></script>
+
+ <title>Trabalho G2</title>
+</head>
+<body>
+<header id="color"  class="jumbotron text-center"  >
+  <img class="rounded-circle float-left"  id="foto" src="C:\Users\Roger Francisco\Documents\TrabG2\assets\img\a.jpg" class="float-left" > 
+  <h1 class="font-weight-bold">Jose Carlos Arquiteto</h1>
+  <p class="font-weight-bold">Arquitetura e Urbanismo</p> 
+                
+</header>
+        
+<nav id="menu"class="navbar navbar-expand-md bg-dark  navbar-dark">
+ <a id="a" class=" font-weight-bold navbar-brand" href="#"><h3>MENU</h3></a>
+ <button id="sanduiche" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+ <span  class="navbar-toggler-icon"></span>
+ </button>
+ <div  class="collapse navbar-collapse" id="collapsibleNavbar">
+ <ul class="navbar-nav">
+  <li class="nav-item">
+  <a  id="a"class= "font-weight-bold nav-link" href="Bootstrap.html"><h4><u>Home</u></h4></a>
+  </li>
+  <li id="a" class="nav-item">
+  <a id="a"class="font-weight-bold nav-link nav-link" href="Bootstrapperfil.html"><h4><u>Perfil</u></h4></a>
+  </li>
+  <li class="nav-item">
+  <a id="a" class="nav-link" href="Bootstrapprojetos.html"><h4><u>Projetos</u></h4></a>
+  </li>    
+  <li class="nav-item">
+  <a id="a"class="nav-link" href="Bootstrapcontato.html"><h4><u>Contato</u></h4></a>
+  </li>
+  </ul>
+  </div>  
+  </nav>
+  <br>
+         
+</nav>
+<section id="color1" class="container">
+<article id="color1" class="jumbotron text-center">
+<form name="frmTeste" method="post" action="#" onsubmit="return validaForm(this);">
+<h3>DEIXE SEU CONTATO QUE RETORNAREMOS</h3>
+<p>Nome: <input type="text" name="nome" id="nome" /></p>
+<p>Email: <input type="text" name="email" id="email" /></p>
+<p>Telefone: <input type="text" name="mascara" id="mascara" /></p>
+<p>Sexo:
+<label><input type="radio" name="sexo" value="M" id="masc" /> Masculino</label>
+<label><input type="radio" name="sexo" value="F" id="masc" /> Feminino</label>
+</p>
+<p>Profissão
+<select name="cargo">
+<option value="">Selecione o cargo</option>
+<option value="programador">Programador</option>
+<option value="designer">Designer</option>
+<option value="tester">Tester</option>
+<option value="todas">Todas</option>
+</select>
+ </p><label><input type="submit" name="sbt" value="Enviar" /></label></p>
+ </form>
+                      
+ </article>
+  </section>
+
+ <footer id="color" class="jumbotron text-center">
+  <p><b>Tel:51 996466426</b><br>Rua Olavo dutra 105/102<br>Jardim Guanabara<br>arqjoserosa@hotmail.com<br>
+   CEP 91410-490 - Porto Alegre</p>
+  </footer>
+
+
