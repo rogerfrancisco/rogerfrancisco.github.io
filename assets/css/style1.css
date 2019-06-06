@@ -10,7 +10,9 @@ body{
 
 
 }
-
+.p{
+    text-align: center !important;
+}
 
 #foto{
   width:150px !important;
@@ -32,6 +34,7 @@ body{
 #foto1{
     width: 300px;
     height:250px;
+    
 }
 #img2{
 width: 200px;
