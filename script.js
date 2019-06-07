@@ -1,14 +1,17 @@
-$("section").load('home.html');
+$(document).ready(function (){
+    $("#home").click(function(){
+        $("section").load('home.html');
 
-function home() {
-    $("section").load('home.html');
-}
-function perfil() {
+});
+$("#perfil").click(function(){
     $("section").load('perfil.html');
-}
-function projetos() {
+
+});
+$("#projetos").click(function(){
     $("section").load('projetos.html');
-}
-function contato() {
+
+});
+$("#contato").click(function(){
     $("section").load('contato.html');
-}
+
+});
