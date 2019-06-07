@@ -11,6 +11,9 @@ body{
 
 }
 
+.p1{
+    text-align: center !important;
+}
 
 #foto{
   width:150px !important;
